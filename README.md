@@ -28,4 +28,7 @@ O objetivo do projeto é aplicar os algoritmos aprendidos em sala de aula para r
 **Como rodar**: 
 - `npm install -g ts-node` </br>
 - `npm install` </br>
- - `ts-node casosTesteExercicioX.X.ts`
+ - `ts-node pastaDoExercicio/exemplo.ts`
+
+## Youtube
+- https://youtu.be/gcBCUs0sTBM
