@@ -1,3 +1,5 @@
+import { corpFlightBookings } from "./resolucao";
+
 // Exemplo 1
 const reservas1 = [[1, 2, 10], [2, 3, 20], [2, 5, 25]];
 const n1 = 5;

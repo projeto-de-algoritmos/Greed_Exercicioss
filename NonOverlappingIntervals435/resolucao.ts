@@ -1,4 +1,4 @@
-function eraseOverlapIntervals(intervals: number[][]): number {
+export function eraseOverlapIntervals(intervals: number[][]): number {
   if (intervals.length <= 1) {
     return 0; // Não é necessário remover nenhum intervalo se houver 0 ou 1 intervalos.
   }

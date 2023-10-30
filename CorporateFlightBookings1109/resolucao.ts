@@ -1,4 +1,4 @@
-function reservasDeVoosCorporativos(bookings: number[][], n: number): number[] {
+export function corpFlightBookings(bookings: number[][], n: number): number[] {
     const resposta: number[] = new Array(n).fill(0);
 
     for (const reserva of bookings) {

@@ -1,11 +1,10 @@
-// Exemplo 1
-const reservasExemplo1 = [[1, 2, 10], [2, 3, 20], [2, 5, 25]];
-const nExemplo1 = 5;
-const resultadoExemplo1 = corpFlightBookings(reservasExemplo1, nExemplo1);
-console.log(resultadoExemplo1); // Saída: [10, 55, 45, 25, 25]
+import { findMinArrowShots } from "./resolucao";
 
-// Exemplo 2
-const reservasExemplo2 = [[1, 2, 10], [2, 2, 15]];
-const nExemplo2 = 2;
-const resultadoExemplo2 = corpFlightBookings(reservasExemplo2, nExemplo2);
-console.log(resultadoExemplo2); // Saída: [10, 25]
+// Exemplo de uso:
+const pontos1 = [[10, 16], [2, 8], [1, 6], [7, 12]];
+const pontos2 = [[1, 2], [3, 4], [5, 6], [7, 8]];
+const pontos3 = [[1, 2], [2, 3], [3, 4], [4, 5]];
+
+console.log(findMinArrowShots(pontos1)); // Saída: 2
+console.log(findMinArrowShots(pontos2)); // Saída: 4
+console.log(findMinArrowShots(pontos3)); // Saída: 2

@@ -1,4 +1,4 @@
-function findMinArrowShots(pontos: number[][]): number {
+export function findMinArrowShots(pontos: number[][]): number {
     if (pontos.length === 0) {
         return 0;
     }
